@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "stgacct02rmt"
+  annotations:
+    github.com/project-slug: UKGH1/azure_tfmods
+    backstage.io/techdocs-ref: dir:.
+  title: AzResource - stgacct02rmt  # you can give any title
+  description: An example of a Azure Storage account Creation. # Change Description accordingly
+spec:
+  type: service
+  owner:  UKGH1
+  lifecycle: experimental
